@@ -1,1 +1,1 @@
-web: 07.01.00.mvc02.js
+web:run 07.01.00.mvc02.js
