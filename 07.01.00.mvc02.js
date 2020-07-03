@@ -45,7 +45,7 @@ const viewLogin = require('./controllers/logincontroller');
 
 /// ***************** 
 const uri = 'mongodb://localhost:27017/atnshop';
-const urirem = "mongodb+srv://db03:aGBZRta11CBmt8qL@cluster0-q8a6f.mongodb.net/CloudDB?retryWrites=true&w=majority";
+const urixx = "mongodb+srv://db03:aGBZRta11CBmt8qL@cluster0-q8a6f.mongodb.net/CloudDB?retryWrites=true&w=majority";
 
 
 /// ***************** ***************** *****************
@@ -182,7 +182,7 @@ function viewPayment(request, response) {
     listsp = [];
     for (i=0; i< listkq.length / 2; i++) {
         listsp.push(
-            { Name : "Tivi " + listkq[i*2], Price : 30000, Num: listkq[i*2+1]},
+            { Name : "/ " + listkq[i*2], Price : 3000, Num: listkq[i*2+1]},
         );
     }
     
