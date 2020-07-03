@@ -27,6 +27,7 @@ if (app.get('env') === 'production') {
 app.use(express.static('public'));          
 app.set('view engine', 'ejs');              ///***** */
 app.use(session(sess));
+app.listen(process.env.PORT|| 3000);
 
 
 /// ***************** ***************** *****************
